@@ -1,0 +1,154 @@
+:root {
+    --variable-cyan: hsl(167, 36%, 54%);
+    --variable-dark-lue: hsl(205, 41%, 21%);
+    --variable-grayish-dark-blue: hsl(245, 10%, 22%);
+    --very-light-grey: hsl(0, 0%, 98%);
+    --ligh-grey: hsl(240, 2%, 92%);
+    --bright-red: hsl(0, 90%, 57%);
+
+
+}
+
+.main_text {
+    padding: 1.5rem;
+    padding-bottom: 0rem;
+    color: var(--variable-grayish-dark-blue);
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 1.37rem;
+    font-weight: bold;
+}
+
+.navbar {
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.btn-custom {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+    color: var(--very-light-grey);
+    background-color: var(--variable-dark-lue);
+
+}
+
+.my-dark-btn:hover {
+    color: var(--very-light-grey);
+    background-color: var(--variable-grayish-dark-blue);
+}
+
+.btn-light {
+
+    background-color: var(--very-light-grey);
+    color: black;
+
+
+    border: solid black 0.063rem
+}
+
+/* current not working */
+
+.current {
+
+    color: red;
+}
+
+.text-sm-center {
+    padding: 1rem;
+}
+
+.my_img_holder {
+    margin-bottom: 1rem;
+}
+
+.top_img_portfolio {
+    margin-bottom: 1rem;
+}
+
+.portfolio_text {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.row_modify_first_row {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.row_modify {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+@media (min-width: 576px) {
+    .main_text {
+        font-size: 2rem;
+    }
+
+    .top_img_portfolio {
+        margin-bottom: 3rem;
+    }
+
+
+    .my_profile_picture {
+        margin-bottom: 1rem;
+
+    }
+
+    .main_text {
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .btn-custom {
+        font-size: 0.9rem;
+    }
+
+    .row_modify_first_row {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+
+    h2 {
+        line-height: 1.7;
+        font-family: 'Ibarra Real Nova', serif;
+        font-weight: bolder;
+        font-size: 3.4rem;
+        color: var(--variable-grayish-dark-blue);
+    }
+
+    p {
+        color: var(--variable-grayish-dark-blue);
+        font-family: 'Ibarra Real Nova', serif;
+        line-height: 2.5rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+
+
+    }
+
+    .my_img_holder .my_profile_picture {
+        margin-right: auto !important;
+        margin-left: 0 !important;
+    }
+
+    .portfolio_text {
+        font-size: 1.3rem;
+    }
+
+
+}
